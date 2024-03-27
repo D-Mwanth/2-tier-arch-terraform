@@ -1,0 +1,23 @@
+# .tfstate files
+/**/*.tfstate*
+/**/.terraform
+
+../modules/key/client_key
+../modules/key/client_key.pub
+# Local .terraform directories
+**/.terraform/*
+.terraform/*
+*.hcl
+*.lock*
+../.terraform/*
+terraform.*
+*.tfvars*
+
+# .tfstate files
+*.tfstate
+/**/*.tfstate*
+*.tfstate.*
+
+# ignore ssh key files
+**/client_key
+**/client_key.pub
